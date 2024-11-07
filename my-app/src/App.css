@@ -38,7 +38,6 @@ header {
 
 .card-product {
     width: 305px;
-    display: inline-block;
 }
 
 img {
@@ -46,4 +45,7 @@ img {
     width: 289px;
     height: 200px;
     border-radius: 16px 0px 0px 0px;
+}
+.recipe-name{
+    font-size: 1.2em;
 }

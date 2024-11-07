@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../../../App.css';
 
 export const SearchBar = () => {
 	const [query, setQuery] = useState('');
@@ -14,7 +15,7 @@ export const SearchBar = () => {
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<input
+			<input className='search-input'
 				onChange={handleChange}
 				aria-label='Recipe search'
 				placeholder='Search for recipes...'

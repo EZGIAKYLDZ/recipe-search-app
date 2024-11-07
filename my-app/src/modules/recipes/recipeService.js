@@ -18,8 +18,9 @@ export async function fetchRecipesByIngredient (query) {
       throw Error('An error occured when fetching data.')
     }
     const data = await response.json();
-    return data.meals;
+    return data.meals[0];
   }
 
 
 // https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
+

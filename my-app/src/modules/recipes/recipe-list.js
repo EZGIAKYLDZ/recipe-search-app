@@ -1,5 +1,6 @@
 import '../../App.css';
 
+// It's more commont to call files after component names. So this file should be called RecipeList.js instead of recipe-list.js.
 export const RecipeList = ({ recipes, handleShowRecipe,selectedRecipe }) => {
     return (
         recipes.length > 0 ? (

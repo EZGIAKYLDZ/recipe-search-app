@@ -6,6 +6,7 @@ import { RecipeList } from './modules/recipes/recipe-list';
 import { fetchRecipesById } from './modules/recipes/recipeService';
 
 export const App = () => {
+  // None of the logic here until 'return' statement is needed here since all of it is used only in the RecipeList component. Usually, we try to keep components as clean as possible.
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setselectedRecipe] = useState([]);
 
